@@ -1,0 +1,41 @@
+.formbox
+    display: flex
+    position: relative
+    flex-direction: column
+    width: 100%
+    padding: 110px 190px
+    color: #f6f6f6 
+    flex-base: 200px
+    max-width: 300px
+
+.formbox:before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    background: url(../img/contactbg.png) center no-repeat
+    filter: grayscale(0.4)
+    background-size: cover
+    opacity: 0.6
+    z-index: -1
+
+.formbox__item
+    display: flex
+    align-content: stretch
+    padding-bottom: 25px
+
+.formbox__label
+    flex-basis: 110px
+    min-width: 110px
+    text-align: left
+.formbox__input 
+    flex-grow: 1   
+
+.formbox__button
+    width: 120px
+    height: 45px
+    border: 1px solid #f2f2f2
+    opacity: 0.7
+    border-radius: 0
