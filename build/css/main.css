@@ -28,8 +28,8 @@
   align-items: baseline; }
 
 .head {
-  background: url(../img/headerbg.png), linear-gradient(to right, #485563 0%, #29323c 100%) no-repeat;
-  background-size: 100%; }
+  background: url(../img/headerbg.png) no-repeat;
+  background-size: 120%; }
 
 .head__button {
   background: transparent;
@@ -43,7 +43,7 @@
 
 .head__menu {
   position: relative;
-  display: inline-block; }
+  display: inline; }
 
 .head__list {
   display: none;
@@ -54,12 +54,12 @@
 .head__item a {
   color: #f2f2f2;
   padding: 20px;
-  display: block;
+  display: inline;
   text-transform: uppercase;
   text-decoration: none; }
 
 .head__menu:hover .head__list {
-  display: block; }
+  display: inline; }
 
 .btn {
   color: #e8e8e8;
@@ -127,6 +127,14 @@
 .head__down {
   background: transparent;
   padding: 144px 0 100px; }
+
+.head__down-i {
+  color: #f2f2f2;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+  padding: 10px; }
 
 .list {
   display: flex;
